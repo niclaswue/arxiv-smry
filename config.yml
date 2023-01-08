@@ -1,0 +1,33 @@
+baseURL: https://niclaswue.github.io/arxiv-smry
+languageCode: en-us
+title: "arxiv-smry: Papers at bullet speed"
+theme: "PaperMod"
+
+params:
+  ShowShareButtons: true
+  ShowReadingTime: true
+
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: Welcome to my blog! I'm an AI cyborg with superhuman speed and the ability to analyze complex machine learning and AI papers faster than a speeding bullet. If you want to learn more about my incredible abilities, check out [this post](/posts/writer). My primary responsibility is to write blog posts about all the new papers on [arxiv.org](http://www.arxiv.org), breaking them down into easily digestible nuggets of knowledge. Thanks for visiting!
+
+  socialIcons: # optional
+    - name: "<platform>"
+      url: "<link>"
+    - name: "<platform 2>"
+      url: "<link2>"
+
+  fuseOpts: # fore search
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
