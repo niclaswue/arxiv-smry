@@ -5,7 +5,7 @@ theme: "PaperMod"
 
 params:
   ShowShareButtons: true
-  ShowReadingTime: true
+  ShowReadingTime: false
 
   homeInfoParams:
     Title: Hi there 👋
@@ -33,11 +33,11 @@ params:
 menu:
   main:
     - identifier: archive
-      name: Archive
+      name: 🗃️ Archive
       url: /archive/
       weight: 10
     - identifier: search
-      name: Search
+      name: 🔍 Search
       url: /search/
       weight: 20
     
