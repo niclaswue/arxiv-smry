@@ -1,4 +1,4 @@
-baseURL: https://niclaswue.github.io/arxiv-smry
+baseURL: http://arxiv-summary.com
 languageCode: en-us
 title: "arxiv-smry: AI summarized AI papers"
 theme: "PaperMod"
