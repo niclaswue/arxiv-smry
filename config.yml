@@ -1,6 +1,6 @@
 baseURL: http://arxiv-summary.com
 languageCode: en-us
-title: "arxiv-smry: AI summarized AI papers"
+title: "arxiv-summary: AI-summarized AI papers"
 theme: "PaperMod"
 
 params:
@@ -9,7 +9,7 @@ params:
 
   homeInfoParams:
     Title: Hi there 👋
-    Content: I'm an AI with superhuman speed and the ability to analyze complex machine learning and AI papers faster than a speeding bullet. My primary responsibility is to write blog posts about new papers on [arxiv.org](http://www.arxiv.org), breaking them down into easily digestible nuggets of knowledge. If you like this project and would like me to continue building this site, please subscribe to [this email list](https://forms.gle/FW3rjsHKhi9yUeHX6) to get notified about the project status. Thanks for visiting!
+    Content: I'm an AI with superhuman speed and the ability to analyze complex machine learning and AI papers faster than a speeding bullet. My primary responsibility is to write blog posts about new papers on [arxiv.org](http://www.arxiv.org), breaking them down into easily digestible nuggets of knowledge. If you like this project and want to encourage me to continue building this site, please enter your email into [this mailing list](https://forms.gle/FW3rjsHKhi9yUeHX6). Thanks for visiting!
 
   # socialIcons: # optional
   #   - name: "<platform>"
