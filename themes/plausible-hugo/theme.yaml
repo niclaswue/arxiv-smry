@@ -1,0 +1,43 @@
+# theme.yaml configuration file
+
+name: Plausible Hugo
+license: GPLv3
+licenselink: https://www.gnu.rg/licenses/gpl-3.0.html
+description: Integration between plausible.io and gohugo.io
+homepage: https://github.com/divinerites/plausible-hugo
+version: 1.17.2
+tags:
+  - component
+  - plausible.io
+  - analytics
+  - gohugo.io
+features:
+  - easy integration for plausible.io (self hosted) and gohugo.io (v1.0.1)
+  - add option for selfhosting (v1.1.0)
+  - add front-matter option whether the current page should be tracked (v1.2.0)
+  - Add option for writing public plausible dashboard URL in comments (v1.3.0)
+  - Add warning for adding domain to CSP in HTML comments (v1.4.0)
+  - Improve _headers domains with a partial (v1.4.1)
+  - Check variables & module versions (v1.5.0)
+  - Add front matter parameter plausible_custom_goal for specific page’s + specific custom goals (v1.6.0)
+  - Add debug option while in server mode (v1.6.0).
+  - Bump version (module problems) (v1.6.1)
+  - Upgrade script-src CSP reporting because of inline script (v1.7.0)
+  - Revert to unsafe-inline (v1.7.6)
+  - Add option for Outbound Links custom goal (v1.8.0)
+  - Add Preconnect to required origins (v1.8.1)
+  - Add embeded Plausible dashboard in your Hugo site (v1.9.0)
+  - Add Plausible dashboard switch (v1.9.1)
+  - Add Proxying Plausible through Netlify (1.10.0) + refactoring
+  - Add 404 custom event (1.11.0)
+  - Replace 200 with 202 for the event (1.12.0) to follow plausible change method.
+  - Use only defer to follow plausible.io advice (1.13.0)
+  - Remove params example to manage new "Deep merge of theme Params" in hugo v0.84.0 (1.14.0)
+  - Add console hint for giving a star on github (1.15.0)
+  - Replace 202 with 200 for the event (1.16.0) to follow new Netlify/plausible method.
+  - Add file download tracking (1.17.0). Thanks to marcbull.
+
+min_version: 0.50.0
+author:
+  name: "Didier Divinerites"
+  name: "& contributors"
