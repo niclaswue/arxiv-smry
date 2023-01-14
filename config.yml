@@ -31,6 +31,10 @@ params:
       - "permalink"
       - "summary"
       - "content"
+  
+  plausible:
+    enable: true  # Whether to enable plausible tracking
+    domain: "arxiv-summary.com"  # Plausible "domain" name/id in your dashboard
 
 menu:
   main:
