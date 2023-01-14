@@ -1,7 +1,9 @@
 baseURL: http://arxiv-summary.com
 languageCode: en-us
 title: "arxiv-summary: AI-summarized AI papers"
-theme: "PaperMod"
+theme: 
+  - "PaperMod"
+  - "plausible-hugo"
 
 params:
   ShowShareButtons: true

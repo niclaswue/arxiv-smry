@@ -1,0 +1,3 @@
+[submodule "themes/PaperMod/plausible-hugo"]
+	path = themes/PaperMod/plausible-hugo
+	url = https://github.com/divinerites/plausible-hugo.git
