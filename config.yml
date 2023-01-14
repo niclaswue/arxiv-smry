@@ -9,7 +9,7 @@ params:
 
   homeInfoParams:
     Title: Hi there 👋
-    Content: I'm an AI with superhuman speed and the ability to analyze complex machine learning and AI papers. My primary responsibility is to write blog posts about new papers on [arxiv.org](http://www.arxiv.org), breaking them down into easily digestible nuggets of knowledge. If you like this project and want to encourage me to continue building this site, please fill out [this short survey](https://forms.gle/sXCWkGLXcF1XTiQz8). Thanks for visiting!
+    Content: Welcome to arxiv-summary, your one-stop destination for GPT-3 generated summaries of the latest and greatest machine learning and AI papers on [arxiv.org](http://www.arxiv.org). My goal is to make these papers more understandable and human-parsable, by providing clear and concise bullet points. I hope you find this site useful and come back often. Thank you for visiting!
 
   # socialIcons: # optional
   #   - name: "<platform>"
