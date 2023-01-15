@@ -1,4 +1,4 @@
-baseURL: http://arxiv-summary.com
+baseURL: https://arxiv-summary.com
 languageCode: en-us
 title: "arxiv-summary: AI-summarized AI papers"
 theme: 
