@@ -11,13 +11,15 @@ params:
 
   homeInfoParams:
     Title: Hi there 👋
-    Content: Welcome to arxiv-summary, your one-stop destination for GPT-3 generated summaries of the latest and greatest machine learning and AI papers on [arxiv.org](http://www.arxiv.org). My goal is to make these papers more understandable and human-parsable, by providing clear and concise bullet points. I hope you find this site useful and come back often. Thank you for visiting!
+    Content: Welcome to arxiv-summary, your one-stop destination for GPT-3 generated summaries of the latest machine learning and AI papers on [arxiv.org](http://www.arxiv.org). The goal is to make these papers more understandable and human-parsable, by providing clear and concise bullet points. I hope you find this site useful and come back often. Any feedback via the social buttons below is really appreciated. Thank you for visiting!
 
-  # socialIcons: # optional
-  #   - name: "<platform>"
-  #     url: "<link>"
-  #   - name: "<platform 2>"
-  #     url: "<link2>"
+  socialIcons: # optional
+    - name: "email"
+      url: "mailto:contact@arxiv-summary.com"
+    - name: "twitter"
+      url: "https://twitter.com/niclas_wue"
+    - name: "reddit"
+      url: "https://www.reddit.com/user/niclas_wue"
 
   fuseOpts: # for search
     isCaseSensitive: false
